@@ -1,0 +1,28 @@
+.Head {
+  -moz-animation: peekABoo 10s ease-in-out infinite;
+  -ms-animation: peekABoo 10s ease-in-out infinite;
+  -o-animation: peekABoo 10s ease-in-out infinite;
+  -webkit-animation: peekABoo 10s ease-in-out infinite;
+  animation: peekABoo 10s ease-in-out infinite;
+}
+
+@keyframes peekABoo {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-17px);
+  }
+  75% {
+    transform: translateY(-17px);
+  }
+  90%{
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
